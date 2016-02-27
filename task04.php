@@ -1,11 +1,10 @@
 ﻿<?php
-include 'functions/functions.php';
+include_once 'functions/functions.php';
 $arr = [0, 89, 2, -52];
 
 $minMax = findMinMax($arr);
 
-foreach($minMax as $i){
-    echo $i .'<br />';
-}
+echo 'Minimum is: '. $minMax[0] .', ';
+echo 'maximum is: '. $minMax[1];
 
 ?>
