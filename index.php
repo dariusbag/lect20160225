@@ -30,13 +30,22 @@
 <?php include 'task06.php'; ?>
 </div>
 
-
-
-
+<div id="task07">
 <h2>7. Iš masyvo pašalintų visus neigiamus skaičius;</h2>
+<?php include 'task07.php'; ?>
+</div>
 
+<div id="task08">
 <h2>8. Apskaičiuotų masyvo elementų (sveikųjų skaičių), kurie be liekanos dalijasi iš 3, sumą.</h2>
+<?php include 'task08.php'; ?>
+</div>
 
+<div id="task09">
 <h2>9. Iš teksto eilutės pašalintų žodzius kuris prasideda raide A.</h2>
+<?php include 'task09.php'; ?>
+</div>
 
+<div id="task10">
 <h2>10. Suskaičiuotų ir atspausdintų kiekvieno simbolio kiekį duotoje eilutėje.</h2>
+<?php include 'task10.php'; ?>
+</div>
