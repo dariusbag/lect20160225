@@ -1,4 +1,8 @@
 ﻿<?php
+
+// function total($arr)
+// function randArr($start, $end, $amount)
+// function findIteratives($arr, $it)
 // function trimDots($arr)
 // function removeNegatives($arr)
 // function getNums($arr)
@@ -13,6 +17,38 @@
 // function findMin($ar)
 // function findMax($ar)
 // function findMinMax($ar)
+
+function total($arr){
+    // takes array of numbers
+    // returns sum of all elements as number
+    $total = 0;
+    foreach($arr as $element){
+        $total = $total + $element;
+    }
+    return $total;
+}
+
+function randArr($start, $end, $amount){
+    // takes start and end of range as parametters, and amount of element needed
+    // returns array of random digits
+    $arrOut = [];
+    for ($i = 0; $i < $amount; $i++){
+        $arrOut[] = rand($start, $end);
+    }
+    return $arrOut;
+}
+
+function findIteratives($arr, $it){
+    // takes array of integers and integer as iterative
+    // returns array of integers which are divisible by iterative
+    $arrOut = [];
+    foreach($arr as $element){
+        if (($element != 0) && (($element % 3) == 0)){
+            $arrOut[] = $element;
+        }
+    }
+    return $arrOut;
+}
 
 function trimDots($arr){
     // gets array of elements
