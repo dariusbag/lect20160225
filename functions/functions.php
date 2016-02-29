@@ -1,5 +1,7 @@
 ﻿<?php
 
+// function letterCases($char)
+// function removeWords($arr, $str)
 // function total($arr)
 // function randArr($start, $end, $amount)
 // function findIteratives($arr, $it)
@@ -17,6 +19,35 @@
 // function findMin($ar)
 // function findMax($ar)
 // function findMinMax($ar)
+
+function letterCases($char){
+	// takes string of letters
+	// returns array of 2 strings: one lowercase and one UPPERCASE
+	$letter = $char;
+	$lower = strtolower($letter);
+	$upper = strtoupper($letter);
+	$cases = [$lower, $upper];
+	return $cases;
+}
+
+function removeWords($strText, $str){
+	// takes array of strings and "forbidden" character as string
+	// returns string without words which start with "forbidden" letter
+		$char = $str;
+		// gets letter in lowercase and UPPERCASE
+		$cases = letterCases($char);
+		// converting string to array
+		$arrText = strToArray($strText);
+		$strRet = '';
+	// loop through array checking each element
+	// if NOT starts with forbidden letter and add to new string
+	foreach($arrText as $element){
+		if (($element[0] != $cases[0]) && ($element[0] != $cases[1])){
+			$strRet .= $element .' ';
+		}
+	}
+	return $strRet;
+}
 
 function total($arr){
     // takes array of numbers

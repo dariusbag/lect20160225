@@ -15,7 +15,7 @@ echo 'Nelyginių skaičių eilė nuo 1 iki 99: <br />';
 // loop through array
 foreach($oddNumbers as $i){
     echo $i .' ';
-};
+}
 
 
 
