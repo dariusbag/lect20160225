@@ -3,6 +3,6 @@
 $strToRev = 'Test';
 $reversedString = strrev($strToRev);
 
-echo 'Original string: '. $strToRev .'<br />';
-echo 'Reversed string: '. $reversedString .'<br />';
+echo 'Originali eilutė: '. $strToRev .'<br />';
+echo 'Apversta eilutė: '. $reversedString .'<br />';
 ?>

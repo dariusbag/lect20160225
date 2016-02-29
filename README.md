@@ -1,4 +1,4 @@
-Užduotys
+﻿Užduotys
 
 Parašykite programą ir jei galima funkciją, kuri: 
 
