@@ -1,5 +1,6 @@
 ﻿<?php
 
+// function symbolCount($arr)
 // function letterCases($char)
 // function removeWords($arr, $str)
 // function total($arr)
@@ -19,6 +20,20 @@
 // function findMin($ar)
 // function findMax($ar)
 // function findMinMax($ar)
+
+function symbolCount($arr){
+    // takes array of characters
+    // returns array in format: character => count
+    $arrLoop = [];
+    foreach($arr as $element){
+        if (!isset($arrLoop[$element])){
+            $arrLoop[$element] = 1;
+        }else{
+            $arrLoop[$element]++;
+        }
+    }
+    return $arrLoop;
+}
 
 function letterCases($char){
 	// takes string of letters
