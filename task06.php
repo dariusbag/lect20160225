@@ -1,8 +1,8 @@
 ﻿<?php 
-$str = 'First,  think of variables. in PHP as data slots. Each one is a name that points to a data slot that can hold a value that is one of the basic data types: a number, a string, a boolean, etc. When you create a reference, you are making a second name that points at the same data slot. When you assign one variable to another, you are copying the contents of one data slot to another data slot.';
+$str = 'First,  think of variables. in PHP as data slots. Each one is a name that points to a data slot that can hold a value that is one of the basic data types: a number, a string, a boolean, etc.';
 ?>
 <form action="index.php" method="POST">
-    <textarea rows="8" cols="64" name="06inp" ><?php echo (isset($_POST['06inp']) ? ($_POST['06inp']) : $str); ?></textarea><br />
+    <textarea rows="6" cols="64" name="06inp" ><?php echo (isset($_POST['06inp']) ? ($_POST['06inp']) : $str); ?></textarea>
     <input type="submit" name="Submit06">
 </form>
 

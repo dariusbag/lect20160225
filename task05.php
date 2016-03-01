@@ -11,7 +11,7 @@ foreach($numArr as $element){
 echo '<br />';
 
 // sorting array
-sort($numArr);
+rsort($numArr);
 
 echo 'Išrikiuotų skaičių eilė: ';
 foreach($numArr as $element){

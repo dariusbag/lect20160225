@@ -22,5 +22,6 @@ function isPrime($num){
 $test = isPrime(15);
 
 var_dump($test);
+echo 'Užtingėjau su šituo';
 
 ?>

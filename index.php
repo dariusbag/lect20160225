@@ -1,4 +1,15 @@
-﻿<h1>Užduotys - PHP</h1>
+﻿<style>
+h1 {margin:auto; border:1px solid #000080;}
+body {background-color:#dddddd; color:#000080; font-family:calibri; margin: 20px;}
+h2 {font-size: 16px; margin:0px 10px 0px 10px;}
+#task01, #task02, #task03, #task04, #task05, #task06, #task07, #task08, #task09, #task10 {background-color:#aaaafa; width: 45%; border: 1px solid #000080; padding:5px; margin:10px; display:block; float:left;}
+#task01, #task02{height:100px}
+#task03, #task04{height:100px}
+#task05, #task06{height:180px}
+#task07, #task08{height:80px}
+#task09, #task10 {height:200px}
+</style>
+<h1>Užduotys - 2016 02 25</h1>
 <div id="task01">
 
 <h2>1. Žodį atspausdinti atvirkščiai pvz: jei duotas žodis sula ekrane atspausdinti alus;</h2>
